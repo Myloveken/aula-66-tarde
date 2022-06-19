@@ -1,25 +1,22 @@
+// eslint-disable-next-line no-unused-vars
 import logo from './logo.svg';
 import './App.css';
+// eslint-disable-next-line no-unused-vars
+import Todos from './TodoList/Todos'
+// eslint-disable-next-line no-unused-vars
+import TrafficLight from './TrafficLights/TrafficLight';
+import './TrafficLights/styles.css'
+import FetchGithubUsers from './API/FetchGithubUsers';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return ( <
+        div className = "App" > { /* <Todos /> */ } {
+            /* <TrafficLight initialValue={0}/>
+                  <TrafficLight initialValue={1}/> */
+        } < FetchGithubUsers / >
+        <
+        /div>
+    );
 }
 
 export default App;
