@@ -19,16 +19,19 @@ export default function TrafficLight({ initialValue }) {
 
     return ( <
         div className = 'traffic-light' >
+
         <
         Light color = "#f00"
         active = { colorIndex === 0 }
-        /> <
+        />  <
         Light color = "#ff0"
         active = { colorIndex === 2 }
-        /> <
+        />  <
         Light color = "#0c0"
         active = { colorIndex === 1 }
-        /> <
+        /> 
+
+        <
         /div>
     )
 
